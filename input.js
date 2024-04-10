@@ -24,6 +24,14 @@ const setupInput = function() {
       console.log(`Right`);
       connectVar.write("Move: right");
     }
+    if (data === "q") {
+      console.log("hello");
+      connectVar.write("Say: hello");
+    }
+    if (data === "e") {
+      console.log("friewnd");
+      connectVar.write("Say: friend?");
+    }
     return data;
   };
   
